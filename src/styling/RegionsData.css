@@ -1,0 +1,33 @@
+.region {
+  color: #fff;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 24px;
+  width: 60%;
+  background-color: #5f5b5b;
+  opacity: 0.6;
+  margin: 10px auto;
+}
+
+.region-title {
+  margin: 12px;
+  font-size: 28px;
+}
+
+@media all and (min-width: 1024px) {
+  .region {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 24px;
+    width: 60%;
+    background-color: #5f5b5b;
+    opacity: 0.6;
+    margin: 10px auto;
+  }
+
+  .region-title {
+    margin: 16px;
+    font-size: 32px;
+  }
+}

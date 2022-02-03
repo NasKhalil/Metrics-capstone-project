@@ -1,0 +1,64 @@
+.country-details,
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.country-details {
+  width: 95%;
+  margin: 50px auto;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.country-details aside {
+  line-height: 1.8;
+  letter-spacing: 4px;
+}
+
+.country-details aside h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.details {
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media all and (min-width: 1024px) {
+  .country-details {
+    height: 80vh;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+  }
+
+  .covid-img {
+    width: 28%;
+  }
+
+  .country-details aside {
+    width: 50%;
+  }
+
+  .details {
+    gap: 50px;
+  }
+
+  .details-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 5%;
+  }
+
+  .country-details aside h2 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+}
