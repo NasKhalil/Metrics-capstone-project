@@ -1,0 +1,39 @@
+.container {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  background-color: #ec4c8b;
+}
+
+.country-card {
+  border-radius: 4px;
+}
+
+.country-card a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.country-card:nth-child(even) {
+  background-color: #e7317a;
+}
+
+.country-card:hover {
+  transform: scale(0.97);
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .country-card:nth-child(even) {
+    background: none;
+  }
+
+  .country-card:nth-child(4n + 2),
+  .country-card:nth-child(4n + 3) {
+    background-color: #e7317a;
+  }
+}
