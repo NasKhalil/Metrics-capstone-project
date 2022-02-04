@@ -1,11 +1,15 @@
 # Covid-19 Metrics
 > Covid-19 Metrics App is single-paged application (SPA) that displays statics of Covid-19 arround the world. The data being showcased was fetched from the  [Narrativa_API](https://covid19tracking.narrativa.com/index_en.html). The `Home` page shows the list of countries that could be filtered with the country name. `Details` page show detailed data for a selected country. Every page has a unique route within the SPA.
 
-# Live Server
+## Live Server
 
 [Live Link](https://metrics-covid19.netlify.app)
 
-# Screenshots
+## Video presentation
+
+[Loom_video]()
+
+## Screenshots
 ### Home
 
 ![](./src/images/Home.png)
@@ -19,7 +23,7 @@
 ![](./src/images/mobile.png)
 
 
-# Getting Started
+## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
@@ -33,17 +37,17 @@ To get a local copy up and running follow these simple steps.
 
 - Run `npm run build` to build the app for production.
 
-# Language Used:
+## Language Used:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Redux
 
-# Version Control System
+## Version Control System
 
 GIT
 
-# 👤 Authors
+## 👤 Authors
 
 👤 Khalil Nasri
 
@@ -51,18 +55,21 @@ GitHub: [@NasKhalil](https://github.com/NasKhalil)
 
 LinkedIn: [Khalil Nasri](https://www.linkedin.com/in/nasri-khalil-androdev/)
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/NasKhalil/Metrics-capstone-project/issues).
 Feel free to check the [Projects page](https://github.com/NasKhalil/Metrics-capstone-project/projects).
 
+## Acknowledgments
 
-# Show your support
+- This design inspired by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
+
+## Show your support
 
 Give a ⭐️ if you like this project!
 
-# 📝 License
+## 📝 License
 
 This project is [MIT](LICENSE) licensed.
