@@ -1,6 +1,6 @@
 .country-data {
   list-style: none;
-  width: 95%;
+  width: 80%;
   padding: 30px 10px;
   margin: 0 auto;
   line-height: 1.7;
@@ -23,7 +23,7 @@
 }
 
 .covid-img {
-  width: 50px;
+  width: 30px;
   opacity: 0.8;
 }
 
@@ -32,11 +32,11 @@
 }
 
 .country-data aside h2 {
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .country-data aside h3 {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 @media all and (min-width: 1024px) {

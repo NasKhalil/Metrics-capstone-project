@@ -1,12 +1,12 @@
-import metricsReducer from '../../redux/metrics/metrics';
+import reducer from '../redux/metrics/metrics';
 
 const mockStore = {
   allCovid: {
     covidCountries: [
       {
-        allDeaths: 1000,
+        allDeaths: 8165,
         allRegions: [],
-        confirmedCases: 600000,
+        confirmedCases: 654287,
         id: 'tunisia',
         name: 'Tunisia',
       },
@@ -16,12 +16,12 @@ const mockStore = {
 
 describe('Test', () => {
   test('Initial State', () => {
-    expect(metricsReducer(undefined, {})).toEqual([]);
+    expect(reducer(undefined, {})).toEqual([]);
   });
 });
 
-describe('Mock Metrics Reducer', () => {
-  test('Test Metrics Reducer With Mock Data', () => {
+describe('Mock Countries Reducer', () => {
+  test('Test Countries Reducer With Mock Data', () => {
     const FETCH_COUNTRIES = 'metrics/FETCH_COUNTRIES';
     const store = mockStore;
     const action = {
@@ -29,27 +29,27 @@ describe('Mock Metrics Reducer', () => {
       payload: {
         covidCountries: [
           {
-            allDeaths: 1000,
+            allDeaths: 8165,
             allRegions: [],
-            confirmedCases: 600000,
+            confirmedCases: 654287,
             id: 'tunisia',
             name: 'Tunisia',
           },
         ],
-        total: 890567,
+        total: 954103,
       },
     };
-    expect(metricsReducer(store.allCovid, action)).toEqual({
+    expect(reducer(store.allCovid, action)).toEqual({
       covidCountries: [
         {
-          allDeaths: 1000,
+          allDeaths: 8165,
           allRegions: [],
-          confirmedCases: 600000,
+          confirmedCases: 654287,
           id: 'tunisia',
           name: 'Tunisia',
         },
       ],
-      total: 890567,
+      total: 954103,
     });
   });
 });

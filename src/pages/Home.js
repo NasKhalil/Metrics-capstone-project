@@ -46,7 +46,7 @@ const Home = () => {
             return (
               <section className="country-card" key={id}>
                 <Link
-                  to="/details"
+                  to={`/details/${name}`}
                   state={
                     {
                       countryName: name,
