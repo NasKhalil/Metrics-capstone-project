@@ -1,0 +1,23 @@
+.search {
+  padding: 8px;
+}
+
+.search input {
+  padding: 6px;
+  width: 150px;
+  border-radius: 12px;
+  border: 1px solid;
+}
+
+@media all and (min-width: 768px) {
+  .search {
+    padding: 16px;
+  }
+
+  .search input {
+    padding: 14px;
+    width: 350px;
+    border-radius: 12px;
+    border: 1px solid;
+  }
+}

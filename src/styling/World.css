@@ -1,0 +1,19 @@
+.worldMap {
+  width: 250px;
+}
+
+.cases {
+  color: #fff;
+}
+
+@media all and (min-width: 768px) {
+  .worldMap {
+    width: 400px;
+  }
+
+  .worldContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
